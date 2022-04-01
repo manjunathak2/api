@@ -19,15 +19,8 @@ const App = () => {
   console.log(data1);
   return (
     <div className='container'>
-      <h3>FIRST URL RESULT</h3>
-      <div
-        style={{
-          border: "1px solid black",
-          padding: "20px",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <h3>API RESULT-1</h3>
+      <div className='border border-2 rounded-3 p-4 mt-2'>
         {data.map((item) => (
           <div>
             {" "}
@@ -64,13 +57,8 @@ const App = () => {
         ))}
       </div>
 
-      <h3>SECOND URL RESULT</h3>
-      <div
-        style={{
-          border: "1px solid black",
-          padding: "20px",
-        }}
-      >
+      <h3>API RESULT-2</h3>
+      <div className='border border-2 rounded-3 p-4 mt-2'>
         {data1.map((item) => (
           <div>
             {" "}
